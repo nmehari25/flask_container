@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def get_quote():
-    return "I get DevOps!"
+    return "This is Sparta!"
 
 if __name__ == '__main__':
     app.run(
