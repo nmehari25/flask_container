@@ -27,7 +27,7 @@ RUN pipenv install --system --deploy
 # At this point we've set up our virtual computer, but we've not _yet_ run our
 # application. And we're not going to! We're just setting up the container
 # so that it's ready to do so when we tell it.
-
+EXPOSE 5005
 # So we're going to tell Docker here that when we _do_ want to run it, this is
 # what it should run:
 CMD ["python", "app.py"]
